@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #4795F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 5rem 0;
+    width: 100vw;
+}
+.container h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.container .form-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.form-box .text{
+    padding: .5rem 1rem;
+    width: 40%;
+}
+.form-box button{
+    padding: .2rem;
+    background: blue;
+    color: white;
+    width: 10%;
+}
+.item-list{
+    padding: 1rem 1rem 5rem 1rem;
+    margin-top: 2rem;
+    border: .1rem solid grey;
+    line-height: 3rem;
+    background-color: white; 
+    width: 50%;
+}
+
+.item-list ul{
+    list-style: none;
+    width: 100%;
+}
+.item-list ul li{
+    border-bottom: .1rem solid;
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
